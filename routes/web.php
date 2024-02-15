@@ -24,3 +24,10 @@ Route::get('/home.php', function () {
 Route::get('/muziek.php', function () {
     return view('muziek');
 });
+
+Route::get('/ranglijst.php', function () {
+    return view('muziek');
+});
+Route::get('/contact.php', function () {
+    return view('muziek');
+});
