@@ -15,8 +15,8 @@
     </div>
     <div class="container">
         <div class="content">
-            <h2>Welkom op onze website</h2>
-            <p>Dit is de homepage van onze website. Klik op de links hierboven om naar andere pagina's te gaan.</p>
+            <h2>muziek</h2>
+            <p</p>
         </div>
     </div>
     </body>
