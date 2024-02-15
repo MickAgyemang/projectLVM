@@ -8,10 +8,10 @@
 </head>
 <body>
     <div class="navbar">
-        <a href="#home">Home</a>
-        <a href="#music">Muziek</a>
-        <a href="#countdown">Countdown</a>
-        <a href="#contact">Contact</a>
+        <a href="index.php">Home</a>
+        <a href="muziek.php">Muziek</a>
+        <a href="ranglijst.php">ranglijst</a>
+        <a href="contact.php">Contact</a>
     </div>
     <div class="container">
         <div class="content">
@@ -19,11 +19,11 @@
             <p>Dit is de homepage van onze website. Klik op de links hierboven om naar andere pagina's te gaan.</p>
         </div>
     </div>
+    </body>
     <footer>
         <p>Bedankt voor het bezoeken van onze website! Volg ons op sociale media voor meer updates.</p>
         <p>© 2024 Bedrijfsnaam. Alle rechten voorbehouden.</p>
     </footer>
-    </body>
 </html>
 
 <style>
