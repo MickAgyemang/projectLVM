@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', function () {
-    return view('index');
+Route::get('/home.php', function () {
+    return view('home');
+});
+
+Route::get('/muziek.php', function () {
+    return view('muziek');
 });

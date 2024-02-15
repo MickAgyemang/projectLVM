@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website</title>
-    <link rel="stylesheet" href="/resources/app.css">
+    <title>home</title>
+   
 </head>
 <body>
     <div class="navbar">
-        <a href="index.php">Home</a>
+        <a href="home.php">Home</a>
         <a href="muziek.php">Muziek</a>
         <a href="ranglijst.php">ranglijst</a>
         <a href="contact.php">Contact</a>
