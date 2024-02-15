@@ -17,17 +17,19 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home.php', function () {
+Route::get('home.php', function () {
     return view('home');
 });
 
-Route::get('/muziek.php', function () {
+Route::get('muziek.php', function () {
     return view('muziek');
 });
 
-Route::get('/ranglijst.php', function () {
-    return view('muziek');
+Route::get('ranglijst.php', function () {
+    return view('ranglijst');
 });
-Route::get('/contact.php', function () {
-    return view('muziek');
+Route::get('contact.php', function () {
+    return view('contact');
 });
+
+?>

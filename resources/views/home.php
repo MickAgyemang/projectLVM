@@ -34,19 +34,19 @@ body {
     padding: 0;
 }
 .navbar {
-    background-color: #333; /* donkere achtergrondkleur voor de navbar */
+    background-color: lightseagreen; 
     overflow: hidden;
 }
 .navbar a {
     float: left;
     display: block;
-    color: #f2f2f2; /* witte tekstkleur */
+    color: #f2f2f2; 
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
 }
 .navbar a:hover {
-    background-color: #ddd; /* lichtgrijze achtergrondkleur bij hover */
+    background-color: #ddd; 
     color: black;
 }
 .container {
@@ -55,13 +55,13 @@ body {
     padding: 0 20px;
 }
 .content {
-    background-color: #f9f9f9; /* lichtgrijze achtergrondkleur voor de inhoud */
+    background-color: #f9f9f9; 
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtiele schaduw */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 footer {
-    background-color: #333;
+    background-color: lightseagreen;
     color: #fff;
     text-align: center;
     padding: 20px;

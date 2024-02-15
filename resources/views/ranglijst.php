@@ -34,7 +34,7 @@ body {
     padding: 0;
 }
 .navbar {
-    background-color: #333; /* donkere achtergrondkleur voor de navbar */
+    background-color: lightseagreen;
     overflow: hidden;
 }
 .navbar a {
@@ -55,13 +55,13 @@ body {
     padding: 0 20px;
 }
 .content {
-    background-color: #f9f9f9; /* lichtgrijze achtergrondkleur voor de inhoud */
+    background-color: lightseagreen; /* lichtgrijze achtergrondkleur voor de inhoud */
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtiele schaduw */
 }
 footer {
-    background-color: #333;
+    background-color:lightseagreen;
     color: #fff;
     text-align: center;
     padding: 20px;

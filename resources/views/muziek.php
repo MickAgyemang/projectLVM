@@ -33,7 +33,7 @@ body {
     padding: 0;
 }
 .navbar {
-    background-color: #333; /* donkere achtergrondkleur voor de navbar */
+    background-color: lightseagreen;
     overflow: hidden;
 }
 .navbar a {
@@ -60,7 +60,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtiele schaduw */
 }
 footer {
-    background-color: #333;
+    background-color:lightseagreen;
     color: #fff;
     text-align: center;
     padding: 20px;
