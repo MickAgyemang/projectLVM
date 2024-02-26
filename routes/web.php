@@ -13,22 +13,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+
+Route::get('inlog', function () {
+    return view('inlog');
+});
+Route::get('index', function () {
+    return view('index');
 });
 
-Route::get('/index.php', function () {
-    return view('home');
-});
-
-Route::get('/muziek.php', function () {
+Route::get('/muziek', function () {
     return view('muziek');
 });
 
-Route::get('/ranglijst.php', function () {
+Route::get('/ranglijst', function () {
     return view('ranglijst');
 });
-Route::get('/contact.php', function () {
+Route::get('/contact', function () {
     return view('contact');
 });
 

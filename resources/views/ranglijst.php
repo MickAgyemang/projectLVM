@@ -7,11 +7,11 @@
    
 </head>
 <body>
-    <div class="navbar">
-        <a href="home.php">Home</a>
-        <a href="muziek.php">Muziek</a>
-        <a href="ranglijst.php">ranglijst</a>
-        <a href="contact.php">Contact</a>
+<div class="navbar">
+        <a href="index">Home</a>
+        <a href="muziek">Muziek</a>
+        <a href="ranglijst">Ranglijst</a>
+        <a href="contact">Contact</a>
     </div>
     <div class="container">
         <div class="content">
