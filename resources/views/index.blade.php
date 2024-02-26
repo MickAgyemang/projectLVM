@@ -13,7 +13,9 @@
         <a href="muziek">Muziek</a>
         <a href="ranglijst">Ranglijst</a>
         <a href="contact">Contact</a>
+        <button id="logoutBtn">Uitloggen</button>
     </div>
+    
     <h1>Muzikale Talentenjacht</h1>
     <p>Ontdek de Sterren van Morgen</p>
   </header>

@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inloggen</title>
-    <link rel="stylesheet" href="inlog.css">
+    <link rel="stylesheet" href="/css/inlog.css">
+    <link rel="stylesheet" href="resources/css/app.css">
 </head>
 <body>
     <div class="login-container">
@@ -15,6 +16,6 @@
             <button type="submit">Inloggen</button>
         </form>
     </div>
-    <script src="app.js"></script>
+    <script src="resources/js/app.js"></script>
 </body>
 </html>
