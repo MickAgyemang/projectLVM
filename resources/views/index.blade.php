@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="nl">
 <head>
   <meta charset="UTF-8">
@@ -18,9 +17,7 @@
         <button id="logoutBtn">Uitloggen</button>
     </div>
   </header>
-    <h1>Muzikale Talentenjacht</h1>
-    <p>Ontdek de Sterren van Morgen</p>
-  </header>
+
   <div class="container">
   <img src="fotos/foto.pgn" alt="Afbeelding"/>
   <div>
