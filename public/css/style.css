@@ -21,6 +21,12 @@ body {
     color: black;
 }
 
+img{
+height: 280px;
+width: 300px;
+}
+
+
 .container {
     display: flex;
     max-width: 800px;
