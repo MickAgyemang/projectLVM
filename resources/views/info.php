@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="nl">
 <head>
   <meta charset="UTF-8">
@@ -13,20 +12,10 @@
         <a href="/">Home</a>
         <a href="muziek">Muziek</a>
         <a href="ranglijst">Ranglijst</a>
-        <a href="info">info</a>
         <a href="contact">Contact</a>
+        <a href="info">info</a>
         <button id="logoutBtn">Uitloggen</button>
     </div>
   </header>
-    <h1>Muzikale Talentenjacht</h1>
-    <p>Ontdek de Sterren van Morgen</p>
-  </header>
-  <footer>
-        <p>Bedankt voor het bezoeken van onze website! Volg ons op sociale media voor meer updates.</p>
-        <p>© 2024 Bedrijfsnaam. Alle rechten voorbehouden.</p>
-    </footer>
-
- 
 </body>
 </html>
-

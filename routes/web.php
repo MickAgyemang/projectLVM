@@ -18,6 +18,28 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/inlog', function () {
+    return view('inlog');
+});
+
+Route::get('/muziek', function () {
+    return view('muziek');
+});
+
+Route::get('/ranglijst', function () {
+    return view('ranglijst');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/info', function () {
+    return view('info');
+});
+
+
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
