@@ -21,6 +21,34 @@
     <h1>Muzikale Talentenjacht</h1>
     <p>Ontdek de Sterren van Morgen</p>
   </header>
+  <div class="container">
+  <img src="fotos/We-Need-You-644x400.pgn" alt="Afbeelding"/>
+  <div>
+    <h1>talenten jacht</h1>
+    <p>kkkkkkkkkkkkk</p>
+  </div>
+</div>
+
+<div class="container">
+  <img src="fotos/foto-talentenjacht.jpg" alt="Afbeelding"/>
+  <div>
+    <h1>kkkkk</h1>
+    <p>kkkkkkk</p>
+  </div>
+</div>
+
+<div class="container">
+  <img src="" alt="Afbeelding"/>
+  <div>
+    <h1>Prijs</h1>
+    <p></p>
+  </div>
+</div>
+
+
+
+
+
   <footer>
         <p>Bedankt voor het bezoeken van onze website! Volg ons op sociale media voor meer updates.</p>
         <p>© 2024 Bedrijfsnaam. Alle rechten voorbehouden.</p>

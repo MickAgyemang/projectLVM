@@ -20,10 +20,30 @@ body {
     background-color: #ddd; /* lichtgrijze achtergrondkleur bij hover */
     color: black;
 }
+
 .container {
+    display: flex;
     max-width: 800px;
     margin: 20px auto;
+    padding: 20px;
+    background-color: white; /* Achtergrondkleur van de container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    line-height: 1.6;
+    color: rgb(0, 0, 0); /* Tekstkleur van de container */
+    border: 20px solid lightseagreen; /* Gouden rand toegevoegd aan de container */
+    margin-right: 50px;
+}
+.container {
+    max-width: 500px;
+    margin: 20px auto;
     padding: 0 20px;
+}
+
+.container img {
+    max-width: 50%;
+    border-radius: 30px;
+    margin-right: 20px;
 }
 .content {
     background-color: #f9f9f9; /* lichtgrijze achtergrondkleur voor de inhoud */
