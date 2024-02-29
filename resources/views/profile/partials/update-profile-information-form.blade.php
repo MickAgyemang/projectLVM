@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="css/registreren.css">
 <section>
     <header>
         <h2 class="text-lg font-medium text-gray-900">
