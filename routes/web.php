@@ -37,6 +37,9 @@ Route::get('/contact', function () {
 Route::get('/info', function () {
     return view('info');
 });
+Route::get('/formulier', function () {
+    return view('formulier');
+});
 
 
 

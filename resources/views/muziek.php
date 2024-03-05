@@ -8,15 +8,21 @@
   <link rel="stylesheet" href="css/muziek.css">
 </head>
 <body>
-  <header>
-    <div class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="/">Home</a>
-      <a class="navbar-brand" href="muziek">Muziek</a>
-      <a class="navbar-brand" href="ranglijst">Ranglijst</a>
-      <a class="navbar-brand" href="info">Info</a>
-      <a class="navbar-brand" href="contact">Contact</a>
-      <button class="btn btn-primary" id="logoutBtn">Uitloggen</button>
-    </div>
+<header>
+  <div class="navbar">
+        <a href="/">Home</a>
+        <a href="muziek">Muziek</a>
+        <a href="ranglijst">Ranglijst</a>
+        <a href="info">info</a>
+        <a href="contact">Contact</a>
+        <button id="logoutBtn" onclick="redirectToAnotherPage()">Uitloggen</button>
+
+<script>
+function redirectToAnotherPage() {
+  // Verander de URL naar de gewenste bestemming
+  window.location.href = "inlog";
+}
+</script>
   </header>
  
 
@@ -127,7 +133,7 @@
   <!-- ... (bestaande code) ... -->
 
 <!-- Ronde knop voor het toevoegen van muziek -->
-<div id="addMusicBtn" onclick="location.href='formulier.php'">
+<div id="addMusicBtn" onclick="location.href='formulier'">
   Voeg je eigen muziek toe!
 </div>
 

@@ -19,9 +19,6 @@
     </div>
   </header>
   <body>
-    <header>
-        <h1>informatie </h1>
-    </header>
     <section class="info">
         <h2>Welkom bij onze talentenjacht!</h2>
         <p>Doe mee en laat je talent zien aan de wereld!</p>

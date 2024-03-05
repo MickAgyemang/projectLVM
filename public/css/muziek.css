@@ -1,30 +1,37 @@
 body {
+    
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-
 .navbar {
     background-color: lightseagreen;
     overflow: hidden;
 }
-
 .navbar a {
     float: left;
     display: block;
-    color: #ffffff;
+    color: #f2f2f2; /* witte tekstkleur */
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
 }
-
 .navbar a:hover {
-    background-color: #555555;
-    color: #ffffff;
+    background-color: #ddd; /* lichtgrijze achtergrondkleur bij hover */
+    color: black;
 }
+header {
+    background-color: lightseagreen;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+
 #logoutBtn {
-    top: 10px; /* Aanpassen naar de gewenste afstand vanaf de bovenkant */
-    right: 10px; /* Aanpassen naar de gewenste afstand vanaf de rechterkant */
+    float: right; /* Knop naar rechts uitlijnen */
     padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
@@ -32,11 +39,11 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: transform 0.3s ease;
-}
+  }
 
-#logoutBtn:hover {
-  transform: translateY(-7px);
-}
+  #logoutBtn:hover {
+    transform: translateY(-5px);
+  }
   
 
 .container {
@@ -45,7 +52,7 @@ body {
 }
 
 .content {
-    background-color: #f9f9f9;
+   
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -86,6 +93,13 @@ footer {
 footer p {
     margin: 5px 0;
 }
+
+
+
+
+
+
+
 
 #addMusicBtn {
     position: fixed;
