@@ -27,7 +27,14 @@
             <li><strong>Locatie:</strong> Schoolauditorium</li>
         </ul>
         <p>Wil je meedoen? Schrijf je dan nu in!</p>
-        <button id="inschrijvenBtn">Inschrijven</button>
+        <button id="inschrijven" onclick="redirectToAnotherPage()">inschrijven</button>
+
+<script>
+function redirectToAnotherPage() {
+  // Verander de URL naar de gewenste bestemming
+  window.location.href = "inschrijven";
+}
+</script>
     </section>
     <footer>
         <p>&copy; 2024 Talentenjacht</p>

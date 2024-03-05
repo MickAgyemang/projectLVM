@@ -41,6 +41,9 @@ Route::get('/formulier', function () {
     return view('formulier');
 });
 
+Route::get('/inschrijven', function () {
+    return view('inschrijven');
+});
 
 
 Route::get('/dashboard', function () {
