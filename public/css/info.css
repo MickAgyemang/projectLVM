@@ -60,3 +60,17 @@ footer {
     bottom: 0;
     width: 100%;
 }
+#logoutBtn {
+    float: right; /* Knop naar rechts uitlijnen */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  #logoutBtn:hover {
+    transform: translateY(-5px);
+  }

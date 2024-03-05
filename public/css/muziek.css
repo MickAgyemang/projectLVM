@@ -22,6 +22,22 @@ body {
     background-color: #555555;
     color: #ffffff;
 }
+#logoutBtn {
+    top: 10px; /* Aanpassen naar de gewenste afstand vanaf de bovenkant */
+    right: 10px; /* Aanpassen naar de gewenste afstand vanaf de rechterkant */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#logoutBtn:hover {
+  transform: translateY(-7px);
+}
+  
 
 .container {
     margin: 20px auto;
@@ -81,3 +97,5 @@ footer p {
     border-radius: 50%;
     cursor: pointer;
 }
+
+

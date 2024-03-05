@@ -14,8 +14,14 @@
         <a href="ranglijst">Ranglijst</a>
         <a href="info">info</a>
         <a href="contact">Contact</a>
-        <button id="logoutBtn">Uitloggen</button>
-    </div>
+        <button id="logoutBtn" onclick="redirectToAnotherPage()">Uitloggen</button>
+
+<script>
+function redirectToAnotherPage() {
+  // Verander de URL naar de gewenste bestemming
+  window.location.href = "inlog";
+}
+</script>
   </header>
 
   <div class="container">

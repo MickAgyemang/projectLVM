@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Inloggegevens zijn correct, sla de gebruikersnaam op in de sessie
         $_SESSION["username"] = $username;
         // Redirect naar een beveiligde pagina
-        header("Location: index.php");
+        header("Location: index.blade.php");
         exit;
     } else {
         // Inloggegevens zijn onjuist, doorsturen naar de inlogpagina met een foutmelding

@@ -44,6 +44,9 @@ h2 {
     justify-content: center;
 }
 
+#button:hover {
+    transform: translateY(-3px);
+  }
 label {
     display: block;
     font-weight: bold;
@@ -91,3 +94,17 @@ footer {
 footer p {
     margin: 5px 0;
 }
+#logoutBtn {
+    float: right; /* Knop naar rechts uitlijnen */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  #logoutBtn:hover {
+    transform: translateY(-5px);
+  }
